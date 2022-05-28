@@ -1,0 +1,90 @@
+#text-carousel {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb( 40,90,91); 
+}
+
+#carousel-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#carousel {
+    position: absolute;
+    width: 70vw;
+    height: fit-content;
+    overflow: hidden;
+}
+
+#text-carousel img {
+    height: auto;
+    width: 8vw;
+    margin-bottom: 2vw;
+}
+
+#text-carousel h2 {
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 2.8vw;
+    margin-bottom: 3.5vw;
+}
+
+#text-carousel ul {
+    display: flex;
+    list-style: none;
+    width: 70vw;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+#text-carousel li {
+    display: flex;
+    padding: 0 9vw;
+    gap: 4vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    flex-shrink: 0;
+    font-size: 1.2vw;
+    letter-spacing: 0.1vw;
+    text-align: center;
+    line-height: 2vw;
+}
+
+#text-carousel li :nth-child(2) {
+    font-size: 1vw;
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+    }
+    29% {
+        left: 0vw;
+    }
+    33% {
+        left: -70vw;
+    }
+    62% {
+        left: -70vw;
+    }
+    66% {
+        left: calc(-70vw*2);
+    }
+    96% {
+        left: calc(-70.1vw*2);
+    }
+    100% {
+        left:calc(-70vw*3);
+    }
+}
+
+

@@ -1,0 +1,92 @@
+#info-box {
+    display: flex;
+    width: 88%;
+    height: 112vh;
+    margin: auto;
+}
+
+#info-box article {
+    width: 33.333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb( 40,90,91);
+}
+
+.box-title {
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 2.2vw;
+    letter-spacing: 0.1vw;
+}
+
+#info-box article section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    justify-content: center;
+    background-color: white;
+    width: 19.87vw;
+    height: 12.52vw;
+} 
+
+#info-box section p {
+    cursor: pointer;
+    border-bottom: 1px solid rgb( 40,90,91);
+    padding-bottom: 0.2vw;
+}
+
+#left-box {
+    background-image: url(../assets/images/eggs.webp);
+}
+
+#midle-box {
+    background-color: rgb(255,184,77);
+    position: relative;
+    padding: 0 4.5vw;
+}
+
+#midle-box p {
+    text-align: center;
+    line-height: 2vw;
+    font-size: 1.2vw;
+    letter-spacing: 0.1vw;
+}
+
+#midle-title {
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+
+#midle-box img{
+    position:absolute;
+    height: auto;
+    width: 12vw;
+    top: 6vh;
+    right: 3vw;
+}
+
+#midle-box button {
+    margin-top: 2vw;
+    border: none;
+    background-color: rgb( 40,90,91);
+    width: 10vw;
+    height: 8vh;
+    color: white;
+    font-size: 1.2vw;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+#midle-box button:hover {
+    background-color: rgb( 40,90,91, .3);
+}
+
+#right-box {
+    background-image: url(../assets/images/menina-com-frango.webp);
+}

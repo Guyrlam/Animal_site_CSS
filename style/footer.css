@@ -1,0 +1,51 @@
+#footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 42vh;
+    padding: 10vh 6vw 0 6vw;
+    color: rgb( 40,90,91);
+}
+
+#footer img {
+    height: auto;
+    width: 11vw;
+}
+
+#footer h2 {
+    font-weight: 400;
+    font-size: 1.6vw;
+    letter-spacing: 0.2vw;
+    margin-bottom: 2vw;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+#footer li {
+    font-size: 1.1vw;
+    margin-bottom: 0.8vw;
+    letter-spacing: 0.05vw;
+}
+
+#socials {
+    color: black;
+    display: flex;
+    font-size: 1.6vw;
+    gap: 2vw;
+    margin-bottom: 2vw;
+}
+
+#socials i {
+    cursor: pointer;
+}
+
+#footer span {
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+#details ul :nth-child(4), #policy li {
+    cursor: pointer;
+}
